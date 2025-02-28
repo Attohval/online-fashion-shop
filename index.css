@@ -381,42 +381,65 @@
     }
 }
 @media (max-width:360px){
-    .product-catalog{
-        width: 98%;
-        gap: .5rem;
-        padding: 1rem;
-    }
-    .product-item {
-        width: 10rem;
-    }
-
-    .product-item img{
-        height: 10rem;
-    }
-    .product-item small{
-        font-size: .8rem;
-        font-weight: bold;
-    }
-    .product-item h3{
-        font-size: .7rem;
-    }
     
-    .buttons button{
-        font-size: .8rem;
-        padding: .4rem .5rem;
-        margin-bottom: .5rem;
-        border-radius: .5rem;
-        gap: .2rem;
-    }
-    .buttons button img{
-        width: 1rem;
-        height: 1rem;
-    }
+.hero .hero-background h1{
+    font-size: 3rem;
+}
 
-    .footer-card{
-        width: 8rem;
-        padding: .5rem;
-        gap: 1rem;
+.hero .hero-background p{
+    font-size: 1.2rem;
+}
+
+.hero .hero-background .button button{
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    gap: .5rem;
+}
+
+.button img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.products h2{
+    font-size: 2rem;
+}
+.product-catalog{
+    width: 98%;
+    gap: .5rem;
+    padding: 1rem;
+}
+
+.product-item {
+    width: 10rem;
+}
+
+.product-item img{
+    height: 10rem;
+}
+.product-item small{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.product-item h3{
+    font-size: 1rem;
+}
+    
+.buttons button{
+    font-size: 1rem;
+    padding: .4rem .5rem;
+    margin-bottom: .5rem;
+    gap: .2rem;
+}
+.buttons button img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.footer-card{
+    width: 8rem;
+    padding: .5rem;
+    gap: 1rem;
     }
     
     #news-letter {
@@ -425,12 +448,10 @@
     
     .footer-card h2{
         font-size: 1.1rem;
-        color: #000;
     }
     
     .footer-card li, p {
         font-size: 1rem;
-        list-style:disc;
     }
     
     .subscribe{
@@ -440,7 +461,6 @@
     .subscribe input{
         height: 2rem;
         font-size: 1rem;
-        text-align: center;
     }
     .subscribe label{
         font-size: 1rem;
