@@ -381,6 +381,11 @@
     }
 }
 @media (max-width:360px){
+    .product-catalog{
+        width: 98%;
+        gap: .5rem;
+        padding: 1rem;
+    }
     .product-item {
         width: 10rem;
     }
