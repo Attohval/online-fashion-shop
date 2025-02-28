@@ -65,7 +65,7 @@
 /*-------------End of nav bar---------------*/
 
 .hero .hero-background{
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(/media/heroBG.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(media/heroBG.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
