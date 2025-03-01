@@ -121,6 +121,7 @@
 }
 .product-catalog{
     width: 95%;
+    max-width: 1450px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -242,16 +243,8 @@
     margin-top: 1rem;
     color: #000;
 }
-@media (max-width:1400px){
-    .product-item {
-        width: 24rem;
-    }
 
-    .product-item img{
-        height: 24rem;
-    }
-}
-@media (max-width:1280px){
+@media (max-width:1400px){
     .product-item {
         width: 20rem;
     }
