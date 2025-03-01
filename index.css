@@ -61,7 +61,7 @@
 /*-------------End of nav bar---------------*/
 
 .hero .hero-background{
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(/media/heroBG.jpg);
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url(media/heroBG.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -318,9 +318,20 @@
         border-radius: 1rem;
         align-items: left;
     }
+    
     .nav-links.active {
         display: flex;
     }
+    
+    .logo, .logo-name{
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .logo-name{
+        font-size: 3rem;
+    }
+    
     .product-item {
         width: 26rem;
     }
