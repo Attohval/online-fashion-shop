@@ -110,8 +110,8 @@
 
 .products{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 2rem;
     padding-top: 2rem;
 }
@@ -125,7 +125,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 1.5rem;
-    padding: 2rem;
+    padding: 2rem 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     background: #BDBDBD;
@@ -244,20 +244,20 @@
 }
 @media (max-width:1400px){
     .product-item {
-        width: 30rem;
+        width: 24rem;
     }
 
     .product-item img{
-        height: 30rem;
+        height: 24rem;
     }
 }
 @media (max-width:1280px){
     .product-item {
-        width: 30rem;
+        width: 20rem;
     }
 
     .product-item img{
-        height: 30rem;
+        height: 20rem;
     }
     .footer-card{
         width: 17rem;
@@ -269,7 +269,7 @@
 }
 @media (max-width:1022px){
     .product-item {
-        width: 24rem;
+        width: 20rem;
     }
 
     .product-item img{
@@ -318,45 +318,34 @@
         border-radius: 1rem;
         align-items: left;
     }
-    
     .nav-links.active {
         display: flex;
     }
-    
-    .logo, .logo-name{
-        width: 3rem;
-        height: 3rem;
-    }
-    
-    .logo-name{
-        font-size: 3rem;
-    }
-    
-    .product-item {
-        width: 26rem;
-    }
-
-    .product-item img{
-        height: 24rem;
-    }
-}
-
-@media (max-width:701px){
-    .product-item {
-        width: 22rem;
-    }
-
-    .product-item img{
-        height: 22rem;
-    }
-}
-@media (max-width:550px){
     .product-item {
         width: 20rem;
     }
 
     .product-item img{
         height: 20rem;
+    }
+}
+
+@media (max-width:701px){
+    .product-item {
+        width: 16rem;
+    }
+
+    .product-item img{
+        height: 16rem;
+    }
+}
+@media (max-width:550px){
+    .product-item {
+        width: 18rem;
+    }
+
+    .product-item img{
+        height: 18rem;
     }
 
     .footer-card{
@@ -370,11 +359,11 @@
 
 @media (max-width:479px){
     .product-item {
-        width: 30rem;
+        width: 16.5rem;
     }
 
     .product-item img{
-        height: 28rem;
+        height: 16rem;
     }
     .footer-card{
         width: 18rem;
